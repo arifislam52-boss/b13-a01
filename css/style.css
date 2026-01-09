@@ -5,9 +5,9 @@
 }
 
 
-.font-open-inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+.font-open-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
 header {
@@ -27,7 +27,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 16px 120px;
-    
+
 }
 
 nav .menu {
@@ -57,6 +57,7 @@ nav .menu a {
     flex-direction: row;
     border: none;
 }
+
 .btn:hover {
     background-color: #627382;
 }
@@ -135,7 +136,7 @@ nav .menu a {
 }
 
 #hero-section .btn-outline {
-    background:transparent;
+    background: transparent;
     /* border: none; */
     border-radius: 5px;
     color: #FFFFFF;
@@ -153,7 +154,7 @@ nav .menu a {
 #notes-section {
     max-width: 1600px;
     margin: 0 auto;
-   
+
 }
 
 .notes-heading h1 {
@@ -191,14 +192,14 @@ nav .menu a {
 .card-info img {
     background-color: #F95555;
     border-radius: 50%;
-    padding: 10px ;
+    padding: 10px;
 }
 
 .card-info h3 {
     font-size: 24px;
     font-weight: 600px;
     color: #001931;
-    margin-top:  16px;
+    margin-top: 16px;
 }
 
 .card-info p {
@@ -209,11 +210,59 @@ nav .menu a {
     align-items: center;
 }
 
+#second-brain-section {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 60px;
+}
 
+.brain-section-left {
+    flex: 1;
+    text-align: center;
+}
 
+.brain-heading {
+    flex: 1;
+}
 
+.brain-section-left img {
+    max-width: 100%;
+    height: auto;
+}
 
+.brain-heading h5 {
+    font-size: 16px;
+    color: #469165;
+    margin-bottom: 16px;
+}
 
+.brain-heading h1 {
+    font-size: 48px;
+    font-weight: ;
+    color: #001931;
+    margin-bottom: 16px;
+}
 
+.brain-heading p {
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
 
+.brain-heading li {
+    /* display:flex; */
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
 
+.circle {
+    width: 20px;
+    margin-right: 10px;
+}
