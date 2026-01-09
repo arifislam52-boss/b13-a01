@@ -150,6 +150,69 @@ nav .menu a {
     background-color: antiquewhite
 }
 
+#notes-section {
+    max-width: 1600px;
+    margin: 0 auto;
+   
+}
+
+.notes-heading h1 {
+    text-align: center;
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.notes-heading p {
+    text-align: center;
+    color: #627382;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+#notes-section .notes-card {
+    display: flex;
+    gap: 24px;
+    margin-top: 45px;
+    align-items: center;
+    justify-content: center;
+}
+
+.notes-card .card-info {
+    padding: 24px;
+    max-width: 322px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 5px 5px 50px 0 #241d1d18;
+    vertical-align: middle;
+}
+
+.card-info img {
+    background-color: #F95555;
+    border-radius: 50%;
+    padding: 10px ;
+}
+
+.card-info h3 {
+    font-size: 24px;
+    font-weight: 600px;
+    color: #001931;
+    margin-top:  16px;
+}
+
+.card-info p {
+    max-width: 274px;
+    font-size: 16px;
+    color: #627382;
+    margin-top: 16px;
+    align-items: center;
+}
+
+
+
+
+
 
 
 
